@@ -1,8 +1,9 @@
 # Service Catalog Vault Open Service Broker
-Hashicorp developed a service broker for Vault on Cloud Foundry. It provides
-connectivity information, credentials for accessing Vault with various scoped
-locations (full private, shared read/write for org, global read only) and access
-to an encryption as a service backend.
+[Hashicorp](https://www.hashicorp.com/) developed a service broker for
+[Vault](https://www.vaultproject.io/) on Cloud Foundry. It provides connectivity
+information, credentials for accessing Vault with various scoped locations (full private,
+shared read/write for org, global read only) and access to a
+[cryptography as a service](https://www.vaultproject.io/docs/secrets/transit/) backend.
 
 This document shows how to use the
 [Cloud Foundry Vault Service Broker](https://www.hashicorp.com/blog/cloud-foundry-vault-service-broker/)
